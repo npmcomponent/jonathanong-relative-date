@@ -28,7 +28,16 @@ On a CommonJS compliant environment:
 > relativeDate(0)
 '41 years ago'
 ```
-    
+
+CLI tool
+
+    ~ $ npm install -g relative-date
+    ~ $ relative-date 1355532654000
+    a minute ago
+    ~ $ relative-date "$(date +%s)000"
+    just now
+
+
 Testing
 =======
 node test/node.js || test/browser.html

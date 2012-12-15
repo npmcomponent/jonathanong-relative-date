@@ -14,6 +14,9 @@
   "directories": {
     "lib": "./lib"
   },
+  "bin": {
+    "relative-date": "./bin/relative-date.js"
+  },
   "main": "./lib/relative-date",
   "homepage": "http://github.com/azer/relative-date",
   "repository": { "type":"git",  "url" : "http://github.com/azer/relative-date.git" },
