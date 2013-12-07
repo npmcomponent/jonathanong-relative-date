@@ -1,0 +1,10 @@
+{
+  "name": "relative-date",
+  "version": "1.2.0",
+  "description": "Javascript module for outputting relative dates.",
+  "repo": "jonathanong/relative-date",
+  "main": "lib/relative-date.js",
+  "scripts": [
+    "lib/relative-date.js"
+  ]
+}
