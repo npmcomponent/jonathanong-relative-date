@@ -1,31 +1,7 @@
 {
-  "name": "relative-date",
-  "version": "1.2.0",
+  "name": "jonathanong-relative-date",
   "description": "Javascript module for outputting relative dates.",
-  "author": "Azer Koculu <azer@kodfabrik.com> (http://azer.kodfabrik.com)",
-  "keywords": [
-    "pretty",
-    "date",
-    "timestamp",
-    "format",
-    "human-readable",
-    "relative"
-  ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "bin": {
-    "relative-date": "./bin/relative-date.js"
-  },
-  "main": "./lib/relative-date",
-  "homepage": "http://github.com/azer/relative-date",
-  "repository": { "type":"git",  "url" : "http://github.com/azer/relative-date.git" },
-  "scripts": {
-    "test": "node test/node.js"
-  },
-  "component": {
-    "scripts": {
-      "relative-date": "./lib/relative-date"
-    }
-  }
+  "version": "1.2.0",
+  "main": "lib/relative-date.js",
+  "dependencies": {}
 }
